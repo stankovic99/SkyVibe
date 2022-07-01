@@ -86,11 +86,10 @@ button{
 }
 
 .title{
-    float: left;
     margin-left: 2%;
     margin-top: 2%;
     margin-bottom: 1%;
-margin-right: 15%;
+margin-right: 10%;
     font-size: 23px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gold;
