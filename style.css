@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 400px;
+    background-image: url('pictures/bck.jpg');
+    background-size: 100% 100%;
+}
+
+/* LOGO */
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.image{
+    border-radius: 10px;
+    border: gold 2px solid;
+    width: 130px;
+    height: 150px;
+}
+
+/*Nadvoresno ogranicuvanje*/
+.middleConstraints{
+    display: block;
+    width: 50%;
+    margin: auto;
+	align-items: center;
+    padding-bottom: 20px;
+}
+
+button{
+    height: 100px;
+    color: gold;
+    background-color: #131313;
+    width: 100%;
+    border-radius: 20px;
+    border: gold 2px solid;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 776px) {
+    .middleConstraints {
+      width: 85%;
+    }
+    .image{
+        width: 80px;
+        height: 100px;
+    }
+}
+
+.middleConstraints button{
+	padding: 5px 15px;
+	font-size: 23px;
+	cursor: pointer;
+}
+
+.backButton{
+    width: 30%;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+}
+
+.backButton button{
+    height: 60px;
+    font-size: 16px;
+}
+
+/*Proizvodi*/
+.product{
+    width: 100%;
+    color: gold;
+    background-color: #131313;
+    border-radius: 20px;
+    border: gold 2px solid;
+	padding: 5px 15px;
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.title{
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+    width: 100%;
+}
+
+.description{
+    margin-left: 2%;
+    margin-right: 17%;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 214, 51);
+}
+
+.price{
+    text-align: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+}
