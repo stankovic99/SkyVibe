@@ -15,14 +15,13 @@ body{
 .logo{
     width: 100%;
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .image{
-    border-radius: 10px;
-    border: gold 2px solid;
-    width: 130px;
-    height: 150px;
+    width: 250px;
+    height: 280px;
 }
 
 /*Nadvoresno ogranicuvanje*/
@@ -35,9 +34,9 @@ body{
 }
 
 button{
-    height: 100px;
+    height: 80px;
     color: gold;
-    background-color: #131313;
+    background-color: rgb(23, 23, 23);
     width: 100%;
     border-radius: 20px;
     border: gold 2px solid;
@@ -47,11 +46,11 @@ button{
 
 @media only screen and (max-width: 776px) {
     .middleConstraints {
-      width: 85%;
+      width: 80%;
     }
     .image{
-        width: 80px;
-        height: 100px;
+        width: 200px;
+        height: 230px;
     }
 }
 
@@ -77,7 +76,7 @@ button{
 .product{
     width: 100%;
     color: gold;
-    background-color: #131313;
+    background-color: #141414;
     border-radius: 20px;
     border: gold 2px solid;
 	padding: 5px 15px;
@@ -86,19 +85,19 @@ button{
 }
 
 .title{
-    float: left;
     margin-left: 2%;
     margin-top: 2%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    margin-right: 10%;
     font-size: 23px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gold;
-    width: 100%;
 }
 
 .description{
     margin-left: 2%;
     margin-right: 17%;
+    margin-bottom: 2%;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(243, 214, 51);
