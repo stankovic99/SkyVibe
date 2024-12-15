@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Тестенини - SkyVibe</title>
-        <link rel = "stylesheet" type = "text/css" href = "../style.css">
-    </head>
-    <body>
-        <div class="middleConstraints">
-            <div class="backButton">
-                <a href="../hrana.html"><button>Врати назад</button></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resaturant menu">
+    <meta name="keywords" content="Restaurant, pool bar, sky">
+    <meta name="author" content="Sky restaurant and pool bar">
+    <title>Тестенини - Sky</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../pictures/TransparentDarkLogo.svg">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-sm">
+            <div class="d-flex align-items-center">
+                <a href="../hrana.html" class="me-3">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                    </svg>
+                </a>
+                <a href="../index.html">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                    </svg>
+                </a>
             </div>
-            <div class="product">
-                <p class="title">Кватро формаџи</p>
-                <p class="description">4 вида сирење</p>
-                <p class="price">220 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Болоњезе</p>
-                <p class="description">Мелено месо | Доматен сос</p>
-                <p class="price">200 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Карбонара</p>
-                <p class="description">Сланина | Шунка | Хопла</p>
-                <p class="price">210 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Лазања</p>
-                <p class="description">Мелено месо | Доматен сос | Кашкавал</p>
-                <p class="price">220 ден.</p>
+
+            <div>
+                <img src="../pictures/TransparentTextLogo.svg" alt="navbar-logo" width="48" height="48">
             </div>
         </div>
-    </body>
+    </nav>
+
+    <section class="hero py-4">
+        <div class="container">
+            <div class="d-flex flex-column gap-3 px-3">
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Карбонара</div>
+                    <div class="text-white mt-1">тестенини 250гр., хопла 200гр., кашкавал 50гр., сланина 50гр., пармезан 20гр.</div>
+                    <div class="text-white fs-5 text-end mt-2">250 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Болоњезе</div>
+                    <div class="text-white mt-1">тестенини 250гр., пелети 200гр., мелено месо 100гр.</div>
+                    <div class="text-white fs-5 text-end mt-2">240 ден.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>

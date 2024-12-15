@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Пиво - SkyVibe</title>
-        <link rel = "stylesheet" type = "text/css" href = "../style.css">
-    </head>
-    <body>
-        <div class="middleConstraints">
-            <div class="backButton">
-                <a href="../pijaloci.html"><button>Врати назад</button></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resaturant menu">
+    <meta name="keywords" content="Restaurant, pool bar, sky">
+    <meta name="author" content="Sky restaurant and pool bar">
+    <title>Пиво - Sky</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/TransparentDarkLogo.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-sm">
+            <div class="d-flex align-items-center">
+                <a href="../pijaloci.html" class="me-3">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                    </svg>
+                </a>
+                <a href="../index.html">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                    </svg>
+                </a>
             </div>
-            <div class="product">
-                <p class="title">Скопско 0.33</p>
-                <p class="price">80 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Скопско Смут 0.33</p>
-                <p class="price">80 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Златен даб 0.33</p>
-                <p class="price">70 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Хајнекен 0.4</p>
-                <p class="price">120 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Амстел 0.33</p>
-                <p class="price">100 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Туборг 0.33</p>
-                <p class="price">100 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Калзберг 0.33</p>
-                <p class="price">110 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Лашко 0.5</p>
-                <p class="price">90 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Корона 0.33</p>
-                <p class="price">150 ден.</p>
-            </div>
-            <div class="product">
-                <p class="title">Кромбахер 0.5</p>
-                <p class="price">120 ден.</p>
+
+            <div>
+                <img src="../pictures/TransparentTextLogo.svg" alt="navbar-logo" width="48" height="48">
             </div>
         </div>
-    </body>
+    </nav>
+
+    <section class="hero py-4">
+        <div class="container">
+            <div class="d-flex flex-column gap-3 px-3">
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Скопско</div>
+                    <div class="text-white mt-1">330мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">100 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Скопско смут</div>
+                    <div class="text-white mt-1">330мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">100 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Златен даб</div>
+                    <div class="text-white mt-1">330мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">100 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Хајнекен</div>
+                    <div class="text-white mt-1">400мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">150 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Туборг</div>
+                    <div class="text-white mt-1">330мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">150 ден.</div>
+                </div>
+                <div href="pijaloci/voda.html" class="content-link p-4">
+                    <div class="text-white fs-4">Корона</div>
+                    <div class="text-white mt-1">330мл.</div>
+                    <div class="text-white fs-5 text-end mt-2">200 ден.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>

@@ -1,21 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Мени - SkyVibe</title>
-        <link rel = "stylesheet" type = "text/css" href = "style.css">
-    </head>
-    <body>
-        <div class="logo">
-            <img src="pictures/logo.jpg" alt="Sky Vibe" class="image">
-        </div>
-        <div class="middleConstraints">
-            <div>
-                <a href="hrana.html"><button>Храна</button></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resaturant menu">
+    <meta name="keywords" content="Restaurant, pool bar, sky">
+    <meta name="author" content="Sky restaurant and pool bar">
+    <title>Sky restaurant and pool bar</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="pictures/TransparentDarkLogo.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <!-- 
+    
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="js/script.js"></script> -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-sm">
+            <div class="d-flex align-items-center">
+                <a href="#" class="me-3">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="white" width="32" height="32">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                    </svg>
+                </a>
             </div>
+
             <div>
-                <a href="pijaloci.html"><button>Пијалоци</button></a>
+                <img src="pictures/TransparentTextLogo.svg" alt="navbar-logo" width="48" height="48">
             </div>
         </div>
-    </body>
+    </nav>
+
+    <section class="hero py-4">
+        <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="pictures/TransparentWhiteLogo.svg" alt="Transparent Logo" class="hero-img mb-5">
+            
+            <div class="d-flex flex-column gap-3 w-100 px-3">
+                <a href="hrana.html" class="content-link">
+                    <div class="p-4 text-white fs-5">Храна</div>
+                </a>
+                <a href="pijaloci.html" class="content-link">
+                    <div class="p-4 text-white fs-5">Пијалоци</div>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
 </html>

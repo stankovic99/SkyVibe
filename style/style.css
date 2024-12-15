@@ -1,0 +1,85 @@
+:root {
+    color-scheme: light;
+}
+
+body {
+    background: url('../pictures/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 56px;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link svg {
+    fill: white;
+    width: 32px; 
+    height: 32px;
+}
+
+.navbar img {
+    width: 48px;
+    height: 48px;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.content-link {
+    text-decoration: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.content-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 768px) {
+    .content-link {
+        width: 75%; 
+        margin: 0 auto;
+    }
+} 
+
+@media (max-width: 767px) {
+    .hero-img {
+        max-width: 300px;
+    }
+}
